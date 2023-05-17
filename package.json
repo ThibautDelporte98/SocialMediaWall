@@ -2,8 +2,7 @@
   "name": "socialmediawall",
   "version": "1.0.0",
   "description": "SMW for facebook,twitter,instagram,etc.",
-  "private": true, 
-
+  "private": true,
   "scripts": {
     "watch:sass": "sass scss/styles.scss dist/styles.css --no-source-map -w",
     "compile:sass": "sass scss/styles.scss css/styles.css --no-source-map --style compressed",
@@ -35,7 +34,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.10.2",
-    "bootstrap": "^5.2.2",
+    "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.9.1",
     "live-server": "^1.2.2",
     "run": "^1.4.0",
